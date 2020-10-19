@@ -46,7 +46,15 @@
   align-items: center;
   flex-wrap: wrap;
   .copyright {
-    margin-right: 60px;
+    margin-right: auto;
+    p {
+      margin-bottom: 0;
+      font-size: 13px;
+      color: $gray-blue;
+    }
+  }
+  .template {
+    margin-left: auto;
     p {
       margin-bottom: 0;
       font-size: 13px;
@@ -55,26 +63,6 @@
         color: $gray-blue;
         &:hover {
           color: $primary-color;
-        }
-      }
-    }
-  }
-  .footer-social {
-    ul {
-      li {
-        display: inline-block;
-        margin-left: 15px;
-        &:first-child {
-          margin-left: 0;
-        }
-        a {
-          font-size: 13px;
-          font-weight: bold;
-          color: $gray-blue;
-          transition: $global-transition;
-          &:hover {
-            color: $primary-color;
-          }
         }
       }
     }
